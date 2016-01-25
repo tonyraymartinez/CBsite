@@ -1,0 +1,23 @@
+body{}
+
+nav{
+  border-top: solid #cc0000;
+}
+
+nav ul{
+}
+
+nav ul li{
+  color: #cc0000;
+}
+
+#logo{
+  padding-top: 15px;
+}
+
+#webSiteSlogan{
+  text-align: center;
+  font-weight: bold;
+  font-size: 80%;
+
+}
