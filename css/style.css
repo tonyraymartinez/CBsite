@@ -4,12 +4,15 @@ nav{
   border-top: solid #cc0000;
 }
 
-nav ul{
+nav > ul{
+
 }
 
-nav ul li{
-  color: #cc0000;
+nav > ul > li{
+
 }
+
+
 
 #logo{
   padding-top: 15px;

@@ -3980,10 +3980,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   list-style: none;
 }
 
-.nav > ul{
-  margin: 0 auto;
-}
-
 .nav > li {
   position: relative;
   display: block;
@@ -3995,8 +3991,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
+  color: #fff; //changed font color to white on hover
+  font-weight: bold; //changed font weight to bold
   text-decoration: none;
-  background-color: #eee;
+  background-color: #cc0000; //changed bg hover color to red
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4329,8 +4327,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
-  text-align: center;
+  width: 100%; //changed to center navigation
+  text-align: center; //changed to center navigation
+  //margin: 7.5px -15px;
+  //text-align: center;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4366,7 +4366,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin: 0;
   }
   .navbar-nav > li {
-    float: left;
+    float: none; //changed to center navigation
+    display: inline-block; //changed to center navigation
   }
   .navbar-nav > li > a {
     padding-top: 15px;
