@@ -1,7 +1,6 @@
 body{}
 
 nav{
-  border-top: solid #cc0000;
 }
 
 nav > ul{
@@ -15,12 +14,53 @@ nav > ul > li{
 
 
 #logo{
-  padding-top: 15px;
+  padding: 15px 0 5px 10px;
 }
 
 #webSiteSlogan{
-  text-align: center;
+  background-color: #cc0000;
   font-weight: bold;
-  font-size: 80%;
+  font-size: 70%;
+  color: white;
+  letter-spacing: 1px;
+  padding: 1px 0 1px 15px;
+}
 
+#webSiteSlogan p {
+  padding: 0;
+  margin: 0;
+  font-size 70%;
+}
+
+#aboutUs {
+  padding-bottom: 20px;
+}
+
+#testimonial {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.individualTestimonial {
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #cc0000;
+  color: white;
+  padding-bottom: 20px;
+}
+
+footer > h5 {
+  padding: 15px 0 0 15px;
+  font-weight: bold;
+}
+
+footer  ul {
+  list-style: none;
+}
+
+footer ul li {
+  font-size: 90%;
 }

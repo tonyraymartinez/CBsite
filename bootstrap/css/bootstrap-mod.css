@@ -44,6 +44,7 @@ template {
 }
 a {
   background-color: transparent;
+  color: #fff;
 }
 a:active,
 a:hover {
@@ -3979,7 +3980,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 0;
   list-style: none;
 }
-
 .nav > li {
   position: relative;
   display: block;
@@ -3988,13 +3988,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+  color: black;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  color: #fff; //changed font color to white on hover
-  font-weight: bold; //changed font weight to bold
   text-decoration: none;
-  background-color: #cc0000; //changed bg hover color to red
+  background-color: #cc0000;
+  color: white;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4009,7 +4009,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eee;
+  background-color: #cc0000;
   border-color: #337ab7;
 }
 .nav .nav-divider {
@@ -4327,10 +4327,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  width: 100%; //changed to center navigation
-  text-align: center; //changed to center navigation
-  //margin: 7.5px -15px;
-  //text-align: center;
+  margin: 7.5px -15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4366,8 +4363,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin: 0;
   }
   .navbar-nav > li {
-    float: none; //changed to center navigation
-    display: inline-block; //changed to center navigation
+    float: left;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4970,7 +4966,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #fff;
+  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
